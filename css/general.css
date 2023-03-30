@@ -91,6 +91,10 @@ html {
     display: none;
 }
 
+.cancel-icon {
+    display: none;
+}
+
 #ham {
     cursor: pointer;
 }
