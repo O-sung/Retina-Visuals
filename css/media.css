@@ -1,0 +1,37 @@
+/* *****AT 1200PX****** */
+@media (min-width: 75em) {
+    html {
+        font-size: 80%;
+    }
+
+    .img-box {
+        grid-template-columns: repeat(5, 1fr)
+    }
+}
+
+/* *****AT 896PX****** */
+@media (max-width: 56em) {
+    .hide-links {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .img-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* *******AT 500PX****** */
+@media (max-width: 31.25em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .imgs {
+        margin: 0 6rem;
+        grid-template-columns: 1fr;
+    }
+}

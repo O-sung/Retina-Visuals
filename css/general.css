@@ -78,3 +78,7 @@ html {
 .so-icon:active {
     fill: orange;
 }
+
+.hide {
+    display: none;
+}
