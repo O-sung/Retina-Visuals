@@ -56,6 +56,12 @@ html {
     list-style: none;
 }
 
+.social-links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
 .nav-link:link,
 .nav-link:visited {
     font-size: 1.6rem;
@@ -83,4 +89,8 @@ html {
 
 .hide {
     display: none;
+}
+
+#ham {
+    cursor: pointer;
 }

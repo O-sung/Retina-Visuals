@@ -13,6 +13,17 @@
 @media (max-width: 56em) {
     .hide-links {
         display: none;
+        position: absolute;
+        /* flex-direction: column;
+        gap: 300px !important; */
+        top: 50px;
+        right: 0;
+        background-color: #888;
+        padding: 8px 15px 20px 8px;
+    }
+
+    .nav-link {
+        color: #fff !important;
     }
 
     .hide {
@@ -44,7 +55,7 @@
 
     .social-links {
         display: flex;
-        gap: 1.5rem !important;
+        gap: 1.5rem;
     }
 
     .imgs {
@@ -52,7 +63,7 @@
     }
 
     .img-box {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr;
     }
 
     .so-icon {
