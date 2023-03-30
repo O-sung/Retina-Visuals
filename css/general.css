@@ -1,0 +1,80 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 | 12 | 14 | 16 | 18 | 20 | 24 | 30 | 36 | 44 | 52 | 62 | 74 | 86 | 98
+
+- Font weight 
+Default: 400
+
+- Line heights
+Default: 1
+
+--- 02 COLORS
+- Primary: #ff6b6b
+- Tints: #f03e3e
+- Shades:
+- Accents:
+- Greys: #555  
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+- Space system (px)
+2 | 4 | 8 | 12 | 16 | 24 | 32 | 48 | 64 | 80 | 96 | 128
+*/
+
+/* CSS BASICS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* ******************NAVIGATION BAR******************* */
+.nav-list {
+    max-width: 200rem;
+}
+
+.links-icons {
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #888;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: blue;
+}
+
+.so-icon:link,
+.so-icon:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.so-icon:hover,
+.so-icon:active {
+    fill: orange;
+}
