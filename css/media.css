@@ -20,7 +20,7 @@
     }
 
     .img-box {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -31,7 +31,10 @@
     }
 
     .imgs {
-        margin: 0 6rem;
-        grid-template-columns: 1fr;
+        margin: 0 4rem 3rem;
+    }
+
+    .img-box {
+        grid-template-columns: 1fr !important;
     }
 }
