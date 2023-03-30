@@ -94,3 +94,12 @@ html {
 #ham {
     cursor: pointer;
 }
+
+.disabled {
+    display: none;
+}
+
+.active {
+    color: orange;
+    text-decoration: underline;
+}

@@ -14,12 +14,12 @@
     .hide-links {
         display: none;
         position: absolute;
-        /* flex-direction: column;
-        gap: 300px !important; */
+        flex-direction: column;
+        gap: 30px;
         top: 50px;
         right: 0;
         background-color: #888;
-        padding: 8px 15px 20px 8px;
+        padding: 20px 30px 85px 15px;
     }
 
     .nav-link {
@@ -28,6 +28,10 @@
 
     .hide {
         display: block;
+    }
+
+    .cancel-icon {
+        display: none;
     }
 
     .links-icons {
