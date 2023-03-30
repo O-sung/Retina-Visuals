@@ -1,6 +1,6 @@
 .imgs {
     max-width: 200rem;
-    margin: 0 2rem;
+    margin: 0 2rem 3rem;
 }
 
 .img-box {
@@ -14,4 +14,14 @@
 
 .pic {
     width: 100%;
+}
+
+footer {
+    max-width: 200rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2rem;
 }
