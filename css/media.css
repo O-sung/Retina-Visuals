@@ -24,8 +24,8 @@
     }
 }
 
-/* *******AT 500PX****** */
-@media (max-width: 31.25em) {
+/* *******AT 600PX****** */
+@media (max-width: 37.5em) {
     html {
         font-size: 56.25%;
     }
@@ -36,5 +36,10 @@
 
     .img-box {
         grid-template-columns: 1fr !important;
+    }
+
+    .so-icon {
+        width: 15px;
+        height: 15px;
     }
 }
