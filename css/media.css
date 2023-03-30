@@ -19,6 +19,14 @@
         display: block;
     }
 
+    .links-icons {
+        padding: 2rem 3rem;
+    }
+
+    .imgs {
+        margin: 0 6rem 3rem;
+    }
+
     .img-box {
         grid-template-columns: 1fr 1fr;
     }
@@ -28,6 +36,15 @@
 @media (max-width: 37.5em) {
     html {
         font-size: 56.25%;
+    }
+
+    .links-icons {
+        padding: 2rem;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 1.5rem !important;
     }
 
     .imgs {
