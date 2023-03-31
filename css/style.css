@@ -56,4 +56,28 @@ footer p {
     justify-content: center;
 }
 
-.cont {}
+.cont {
+    text-align: center;
+}
+
+.p-no {
+    background-color: red;
+    padding: 10rem 0;
+}
+
+.email {
+    background-color: #eee4e481;
+    padding: 10rem 0;
+}
+
+.e-text {
+    color: #333;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.phone {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    color: #fff;
+}
