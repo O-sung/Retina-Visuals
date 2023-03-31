@@ -5,6 +5,8 @@ let canBtn = document.getElementById("cancel-btn");
 
 ham.addEventListener("click", (e) => {
   show.style.display = "flex";
+  // show.style.transform = "translate(10px, 0)";
+  // show.style.transition = "all 5s ease";
   ham.style.display = "none";
   cancel.style.display = "block";
 });

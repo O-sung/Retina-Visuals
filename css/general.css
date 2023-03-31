@@ -66,7 +66,7 @@ html {
 .nav-link:visited {
     font-size: 1.6rem;
     text-decoration: none;
-    color: #888;
+    color: #333;
 }
 
 .nav-link:hover,
