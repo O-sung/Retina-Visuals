@@ -53,6 +53,11 @@
     .img-box {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* ********CONTACT********* */
+    .contact {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* *******AT 600PX****** */
