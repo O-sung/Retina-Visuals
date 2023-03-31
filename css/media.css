@@ -19,7 +19,7 @@
         top: 0;
         right: 0;
         background-color: #888;
-        width: 50vw;
+        width: 60vw;
         height: 80vh;
         text-align: center;
         padding-top: 80px;
@@ -37,7 +37,7 @@
 
     .cancel-icon {
         display: none;
-        position: absolute;
+        position: fixed;
         top: 20px;
         right: 20px;
     }
