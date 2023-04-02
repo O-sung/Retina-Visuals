@@ -75,6 +75,27 @@
     .m-text {
         font-size: 2.2rem;
     }
+
+    /* ABOUT PAGE */
+    .about-sect {
+        margin: 0 8rem 2rem;
+    }
+
+    .bio {
+        padding: 3.8rem 2.5rem 1rem;
+    }
+
+    .bio-head {
+        font-size: 1.6rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .bio-text {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+        line-height: 15px;
+    }
+
 }
 
 /* *******AT 600PX****** */
