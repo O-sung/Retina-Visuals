@@ -78,11 +78,11 @@
 
     /* ABOUT PAGE */
     .about-sect {
-        margin: 0 3rem 2rem;
+        margin: 0 10rem 2rem;
     }
 
     .bio {
-        padding: 3.8rem 2.5rem 1rem;
+        padding: 3.8rem 1.5rem 1rem;
     }
 
     .bio-head {
@@ -91,9 +91,9 @@
     }
 
     .bio-text {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         margin-bottom: 1.2rem;
-        line-height: 15px;
+        line-height: 20px;
     }
 
 }
@@ -124,5 +124,25 @@
     .so-icon {
         width: 15px;
         height: 15px;
+    }
+
+    /* ABOUT PAGE */
+    .about-sect {
+        margin: 0 3rem 2rem;
+    }
+
+    .bio {
+        padding: 3.8rem 1rem 1rem;
+    }
+
+    .bio-head {
+        font-size: 1.6rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .bio-text {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+        line-height: 18px;
     }
 }
